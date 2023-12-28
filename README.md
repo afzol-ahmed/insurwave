@@ -1,4 +1,4 @@
-# insurwave
+# Insurwave
 Interview test
 # The Insurwave code test
 
@@ -60,38 +60,38 @@ if __name__ == "__main__":
     test_get_request("invalid_endpoint", params={"key": api_key, "q": "Paris"})
 
 Test cases to create:
-\\Validate the API keys for minimum and maximum range/length
-\\Verify that these keys are answering the call requests if you are using JSON or XML APIs in your application
+Validate the API keys for minimum and maximum range/length
+Verify that these keys are answering the call requests if you are using JSON or XML APIs in your application
 
-\\Verify the Parse response to parse out portions of the response data returned from the server
-\\Check the JSON Schema validation, the Field Type, and the Mandatory Fields
-\\Validate the Response headers and Negative Testcases response
+Verify the Parse response to parse out portions of the response data returned from the server
+Check the JSON Schema validation, the Field Type, and the Mandatory Fields
+Validate the Response headers and Negative Testcases response
 
 Identify and verify the handling of API error codes - 
 
 Client-Side Status Codes -
-\\400 Bad Request, 403 Forbidden, 401 Unauthorized, 429 Too Many Requests
+400 Bad Request, 403 Forbidden, 401 Unauthorized, 429 Too Many Requests
 
 Server-Side Status Codes - 
-\\500 Internal Server Error, 502 Bad Gateway, 503 Service Unavailable, 504 Gateway Timed Out, 501 etc
+500 Internal Server Error, 502 Bad Gateway, 503 Service Unavailable, 504 Gateway Timed Out, 501 etc
 
 Validate Response payload to determine their format and readability factor
-\\Test request chaining to identify the working of multiple APIs together
+Test request chaining to identify the working of multiple APIs together
 
-Verify APIs with input parameters.
-\\Validate end-to-end CRUD (create, read, update, and delete) flow for application API
+Verify APIs with input parameters-
+Validate end-to-end CRUD (create, read, update, and delete) flow for application API
 
 Check database integrity test cases - 
 
-\\Checking whether or NOT a blank value or default value can be retrieved from the database.
+Checking whether or NOT a blank value or default value can be retrieved from the database.
 
-\\Validating each value if it is successfully saved to the database.
+Validating each value if it is successfully saved to the database.
 
-\\Ensuring the data compatibility against old hardware or old versions of operating systems.
+Ensuring the data compatibility against old hardware or old versions of operating systems.
 
-\\Verifying the data in data tables can be modified and deleted
+Verifying the data in data tables can be modified and deleted
 
-\\Running data tests for all data files, including clip art, tutorials, templates, etc.
+Running data tests for all data files, including clip art, tutorials, templates, etc.
 
 
 Scenario 3: UI Automated Testing
